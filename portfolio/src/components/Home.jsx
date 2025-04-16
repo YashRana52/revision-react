@@ -20,11 +20,13 @@ export default function Home() {
         },
         {
             id: 3,
-            name: 'Netflix Clone',
-            description: 'A front-end clone of Netflix displaying movie posters and trailers fetched from TMDb API.',
-            imageUrl: 'https://images.unsplash.com/photo-1615986201152-7686a4867f30?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fG5ldGZsaXh8ZW58MHx8MHx8fDA%3D',
-            repoUrl: 'https://github.com/YashRana52/Netflix-',
+            name: 'Youtube Clone',
+            description: 'A YouTube clone with features like video uploads, likes, comments, and a follow system, allowing users to interact with content .',
+            imageUrl: 'https://images.unsplash.com/photo-1740479048952-e493c94bbf6e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHlvdXR1YmUlMjBjbG9uZXxlbnwwfHwwfHx8MA%3D%3D',
+            repoUrl: 'https://github.com/YashRana52/Youtube',
+            liveUrl: 'https://youtube-bt5z.onrender.com',
         },
+
         {
             id: 4,
             name: 'Twitter Clone',
@@ -32,6 +34,29 @@ export default function Home() {
             imageUrl: 'https://images.unsplash.com/photo-1611162618479-ee3d24aaef0b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dHdpdHRlcnxlbnwwfHwwfHx8MA%3D%3D',
             repoUrl: 'https://github.com/YashRana52/twitter',
             liveUrl: 'https://twitter-mi9y.onrender.com',
+        },
+        {
+            id: 5,
+            name: 'Netflix Clone',
+            description: 'A front-end clone of Netflix displaying movie posters and trailers fetched from TMDb API.',
+            imageUrl: 'https://images.unsplash.com/photo-1615986201152-7686a4867f30?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fG5ldGZsaXh8ZW58MHx8MHx8fDA%3D',
+            repoUrl: 'https://github.com/YashRana52/Netflix-',
+        },
+        {
+            id: 6,
+            name: 'Recipe App',
+            description: 'A dynamic and responsive web application that allows users to search for a variety of recipes by name.',
+            imageUrl: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVjaXBlfGVufDB8fDB8fHww',
+            repoUrl: 'https://github.com/YashRana52/frontend-project/tree/main/Recipe',
+            liveUrl: 'https://frontend-project-cyuv.onrender.com',
+        },
+        {
+            id: 7,
+            name: 'Image Search App',
+            description: 'A dynamic and responsive web application that allows users to search for a variety of recipes by name.',
+            imageUrl: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVjaXBlfGVufDB8fDB8fHww',
+            repoUrl: 'https://github.com/YashRana52/frontend-project/tree/main/Image%20search',
+            liveUrl: 'https://search-img-e1tw.onrender.com',
         },
     ];
 
