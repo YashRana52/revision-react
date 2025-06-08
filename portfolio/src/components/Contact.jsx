@@ -1,4 +1,31 @@
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
+
 export default function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm(
+            'service_o6pfrmf',
+            'template_zsh1cc3',
+            form.current,
+            'k7bxQB9_pAYFMgvdm'
+        ).then(
+            (result) => {
+                alert('Message sent successfully!');
+                console.log(result.text);
+            },
+            (error) => {
+                alert('Something went wrong.');
+                console.log(error.text);
+            }
+        );
+
+        e.target.reset();
+    };
+
     return (
         <div className="min-h-screen bg-gradient-to-br from-white to-orange-50 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto bg-white shadow-xl rounded-3xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
@@ -6,7 +33,7 @@ export default function Contact() {
                 {/* Left - GitHub Info */}
                 <div className="p-8 bg-gradient-to-b from-orange-100 to-orange-200">
                     <h1 className="text-4xl font-bold text-gray-800 mb-2">📬 Contact Me</h1>
-                    <p className="text-lg text-gray-700 mb-6">Hello! My name is Yash Kumar Rana. Student of B.Tech CSE(REGULAR) </p>
+                    <p className="text-lg text-gray-700 mb-6">Hello! My name is Yash Kumar Rana. Student of B.Tech CSE(REGULAR)</p>
 
                     <div className="flex flex-col items-center">
                         <img
@@ -35,32 +62,37 @@ export default function Contact() {
                 </div>
 
                 {/* Right - Contact Form */}
-                <form className="p-8 bg-white flex flex-col justify-center">
+                <form ref={form} onSubmit={sendEmail} className="p-8 bg-white flex flex-col justify-center">
                     <h2 className="text-2xl font-bold text-gray-800 mb-6">📄 Send a Message</h2>
 
                     <input
                         type="text"
                         name="name"
                         placeholder="Full Name"
+                        required
                         className="mb-4 py-3 px-4 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:ring-orange-400 focus:outline-none transition"
                     />
                     <input
                         type="email"
                         name="email"
                         placeholder="Email"
+                        required
                         className="mb-4 py-3 px-4 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:ring-orange-400 focus:outline-none transition"
                     />
                     <input
                         type="tel"
-                        name="tel"
+                        name="phone"
                         placeholder="Phone Number"
+                        required
                         className="mb-4 py-3 px-4 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:ring-orange-400 focus:outline-none transition"
                     />
+
 
                     <textarea
                         name="message"
                         placeholder="Your Message"
                         rows="4"
+                        required
                         className="mb-4 py-3 px-4 rounded-lg border border-gray-300 shadow-sm focus:ring-2 focus:ring-orange-400 focus:outline-none transition"
                     />
 
