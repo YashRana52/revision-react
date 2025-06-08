@@ -22,7 +22,7 @@ export default function Home() {
             id: 3,
             name: 'Blog with Ai integration',
             description: 'A modern blog platform with AI integration that lets users write, share, and explore blogs easily. Features include real-time publishing, user authentication, comment system, and smart AI tools like content suggestions',
-            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-04-16%20142733.png?raw=true',
+            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-06-08%20172521.png?raw=true',
             repoUrl: 'https://github.com/YashRana52/Yash-Blog',
             liveUrl: 'https://yash-blog-zxoi.onrender.com',
         },
