@@ -12,22 +12,6 @@ export default function Home() {
         },
         {
             id: 2,
-            name: 'Twitter Clone',
-            description: 'An emulation of Twitter\'s primary features, including tweeting, following users, and a real-time feed.',
-            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-04-16%20142733.png?raw=true',
-            repoUrl: 'https://github.com/YashRana52/twitter',
-            liveUrl: 'https://twitter-mi9y.onrender.com',
-        },
-        {
-            id: 3,
-            name: 'Blog with Ai integration',
-            description: 'A modern blog platform with AI integration that lets users write, share, and explore blogs easily. Features include real-time publishing, user authentication, comment system, and smart AI tools like content suggestions',
-            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-06-08%20172521.png?raw=true',
-            repoUrl: 'https://github.com/YashRana52/Yash-Blog',
-            liveUrl: 'https://yash-blog-zxoi.onrender.com',
-        },
-        {
-            id: 4,
             name: 'Instagram Clone',
             description: 'A clone of Instagram with features like photo uploads, likes, comments, and a follow system.',
             imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-04-16%20141755.png?raw=true',
@@ -35,7 +19,33 @@ export default function Home() {
             liveUrl: 'https://instragramcopy.onrender.com',
         },
         {
+            id: 3,
+            name: 'Movie Ticket Booking',
+            description: ' user can signup, explore the movies and book the tickets. While booking tickets, user can choose their preferred seats.',
+            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-04-16%20141755.png?raw=true',
+            repoUrl: 'https://github.com/YashRana52/Movie_Booking',
+            liveUrl: 'https://movie-booking-1-hik8.onrender.com',
+        },
+       
+        {
+            id: 4,
+            name: 'Blog with Ai integration',
+            description: 'A modern blog platform with AI integration that lets users write, share, and explore blogs easily. Features include real-time publishing, user authentication, comment system, and smart AI tools like content suggestions',
+            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-06-08%20172521.png?raw=true',
+            repoUrl: 'https://github.com/YashRana52/Yash-Blog',
+            liveUrl: 'https://yash-blog-zxoi.onrender.com',
+        },
+         {
             id: 5,
+            name: 'Twitter Clone',
+            description: 'An emulation of Twitter\'s primary features, including tweeting, following users, and a real-time feed.',
+            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-04-16%20142733.png?raw=true',
+            repoUrl: 'https://github.com/YashRana52/twitter',
+            liveUrl: 'https://twitter-mi9y.onrender.com',
+        },
+        
+        {
+            id: 6,
             name: 'Youtube Clone',
             description: 'A YouTube clone with features like video uploads, likes, comments, and a follow system, allowing users to interact with content .',
             imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-04-16%20141303.png?raw=true',
@@ -46,14 +56,7 @@ export default function Home() {
 
 
 
-        {
-            id: 6,
-            name: 'Image Search App',
-            description: 'A dynamic and responsive web application that allows users to search for a variety of image by name.',
-            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-04-16%20142942.png?raw=true',
-            repoUrl: 'https://github.com/YashRana52/frontend-project/tree/main/Image%20search',
-            liveUrl: 'https://search-img-e1tw.onrender.com',
-        },
+       
         {
             id: 7,
             name: 'Recipe App',
