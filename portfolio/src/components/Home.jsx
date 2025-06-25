@@ -22,7 +22,7 @@ export default function Home() {
             id: 3,
             name: 'Movie Ticket Booking',
             description: ' user can signup, explore the movies and book the tickets. While booking tickets, user can choose their preferred seats.',
-            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-04-16%20141755.png?raw=true',
+            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/hero1.jpg?raw=true',
             repoUrl: 'https://github.com/YashRana52/Movie_Booking',
             liveUrl: 'https://movie-booking-1-hik8.onrender.com',
         },
@@ -57,14 +57,6 @@ export default function Home() {
 
 
        
-        {
-            id: 7,
-            name: 'Recipe App',
-            description: 'A dynamic and responsive web application that allows users to search for a variety of recipes by name.',
-            imageUrl: 'https://github.com/YashRana52/revision-react/blob/main/portfolio/src/assets/Screenshot%202025-04-16%20142858.png?raw=true',
-            repoUrl: 'https://github.com/YashRana52/frontend-project/tree/main/Recipe',
-            liveUrl: 'https://frontend-project-cyuv.onrender.com',
-        },
     ];
 
     return (
